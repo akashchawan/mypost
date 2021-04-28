@@ -4,11 +4,8 @@
 	<title>My Post</title>
 	<?php 
 	session_start();
-
 	include 'include/hlinks.php'; 
 	include 'include/getfunction.php';
-
-
 	?>
 </head>
 <body>
