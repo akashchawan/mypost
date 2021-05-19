@@ -68,6 +68,9 @@
           });
 
 
+	      
+	      
+	      
       }
 		  
       $(document).on('change','#mycategory',function(){
