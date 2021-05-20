@@ -24,6 +24,11 @@
 <div class="container">
   <?php  
     $allcategory=category();
+
+
+
+
+    
   ?>
 
 <select id="mycategory" class="form-control col-md-6 offset-3">
