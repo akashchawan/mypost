@@ -6,8 +6,7 @@ session_start();
 
 	$page=@$_POST['page'];
 	$category=@$_POST['category'];
-
-
+  $testing=1;
     if(!empty($category)){
 
 	$noofpost=mysqli_query($connection,"SELECT * from post where filecat='".$category."' ");
@@ -25,7 +24,7 @@ session_start();
 	}
 
 
-  
+
     if(!empty($category)){
 
 	$load=mysqli_query($connection,"SELECT * from post where filecat='".$category."' limit $page,1");    	
