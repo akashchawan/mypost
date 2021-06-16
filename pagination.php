@@ -24,6 +24,8 @@ session_start();
 		$page=0;
 	}
 
+
+  
     if(!empty($category)){
 
 	$load=mysqli_query($connection,"SELECT * from post where filecat='".$category."' limit $page,1");    	
