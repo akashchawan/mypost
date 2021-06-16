@@ -7,7 +7,7 @@ session_start();
 
 	$page=@$_POST['page'];
 	$category=@$_POST['category'];
-
+  $name="";
 
 
     if(!empty($category)){
